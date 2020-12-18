@@ -33,12 +33,7 @@ hideelements();
         }
     });
 
-    if((window.fullScreen) ||
-    (window.innerWidth == screen.width && window.innerHeight == screen.height)) {
- return;
- } else {
-    showelements();
- }
+
  
 
 
