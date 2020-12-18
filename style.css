@@ -1,59 +1,59 @@
 body {
-    background-color:black;
-    box-sizing:border-box;
-    position: fixed; 
+  background-color: black;
+  box-sizing: border-box;
+  position: fixed;
   /*  overflow-y: scroll; */
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 #Full_Screen {
-    background-color:greenyellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height:100px;
-    width: 130px;
+  background-color: greenyellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 130px;
 }
 #Instr_text {
-  color:white;
-  text-align:center;
-  display:inline-block;
-   margin:10px;
-   position: absolute;
-   top: 33%;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -50%);
-   height:100px;
-   width: 150px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 150px;
 }
 #Matrix {
-    background-color:greenyellow;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height:100px;
-    width: 130px;
+  background-color: greenyellow;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 130px;
 }
 #Instr_text_matrix {
-    color:white;
-    text-align:center;
-  display:inline-block; 
-     margin:10px;
-     position: absolute;
-     top: 33%;
-    left: 20%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height:100px;
-    width: 150px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  position: absolute;
+  top: 33%;
+  left: 20%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 150px;
 }
 #canvas {
-    box-sizing:border-box;
+  box-sizing: border-box;
 }
