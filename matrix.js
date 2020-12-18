@@ -46,7 +46,7 @@ document.addEventListener('keydown', event => {
   if(event.isComposing || event.code == 'Space') {
       if((window.fullScreen) ||
  (window.innerWidth == screen.width && window.innerHeight == screen.height)) {
-return;
+//toggleFullScreen();
  }else {
       resetelements(interval);
       showelements();
