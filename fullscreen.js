@@ -1,3 +1,4 @@
+
 function Fullscreen() {
   toggleFullScreen();
 }
@@ -7,13 +8,14 @@ function hideelements() {
   document.getElementById("Instr_text").style.display = "none";
   document.getElementById("Instr_text_matrix").style.display = "none";
   document.getElementById("Matrix").style.display = "none";
+  document.body.style.cursor = 'none';
 }
-
 function showelements() {
   document.getElementById("Full_Screen").style.display = "unset";
   document.getElementById("Instr_text").style.display = "unset";
   document.getElementById("Instr_text_matrix").style.display = "unset";
   document.getElementById("Matrix").style.display = "unset";
+  document.body.style.cursor = 'unset';
 }
 
 function toggleFullScreen() {
